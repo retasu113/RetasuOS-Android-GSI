@@ -15,8 +15,7 @@ DSU Sideloaderを使用してインストールすることを推奨します。
 
 1. ブートローダーをアンロックしてください。
 2. DSU Sideloaderを起動し、この `system.img` を選択します。
-3. インストールオプションで **"Disable AVB"** を有効にしてください。
-4. インストール後、再起動してください。
+3. インストール後、再起動してください。
 
 ## 🤝 謝辞 (Credits)
 - AndyCGYan (for GSI scripts)
