@@ -24,8 +24,6 @@ DSU Sideloaderを使用してインストールすることを推奨します。
 3. インストールオプションで **"Disable AVB"** を有効にしてください。
 4. インストール後、再起動してください。
 
-*※起動しない場合は、Fastbootから `vbmeta` を無効化してください:*
-`fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`
 
 ## 📝 既知の問題 (Known Issues)
 - （ここに今確認できている不具合があれば書く。例：指紋認証が遅い、カメラがたまに落ちる など）
