@@ -21,3 +21,4 @@ DSU Sideloaderを使用してインストールすることを推奨します。
 - AndyCGYan (for GSI scripts)
 - LineageOS Team
 - https://github.com/buta030
+- https://www.instagram.com/retasuos?utm_source=qr
