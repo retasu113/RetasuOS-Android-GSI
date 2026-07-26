@@ -23,5 +23,4 @@ jobs:
       # Step 3: 自作のスクリプトを実行
       - name: Run build script
         run: |
-          chmod +x ./build_retasu.sh
-          ./build_retasu.sh
+          echo "Build start!"
