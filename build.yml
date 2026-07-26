@@ -1,0 +1,27 @@
+name: Custom Build Automation
+
+# 起動条件の設定
+on:
+  workflow_dispatch: # GitHubのWeb画面から「Run workflow」ボタンで手動実行できるようにする設定
+
+jobs:
+  build:
+    # 実行するクラウドPC環境（Ubuntuの最新版）
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: リポジトリのコードをクラウドPCにダウンロード
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: 必要なツールをインストール
+      - name: Setup environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl git
+
+      # Step 3: 自作のスクリプトを実行
+      - name: Run build script
+        run: |
+          chmod +x ./build_retasu.sh
+          ./build_retasu.sh
